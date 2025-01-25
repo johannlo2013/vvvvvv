@@ -21,7 +21,7 @@ editorGuide = open("editorGuide.txt", "r")
 editorGuide = editorGuide.read().splitlines()
 
 pygame.init()
-screenSize = [960, 736]
+screenSize = [480, 360]
 screen = pygame.display.set_mode(screenSize)
 pygame.display.set_caption("VVVVVV Editor")
 pygame.display.set_icon(pygame.image.load("./assets/icon.png"))

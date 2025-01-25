@@ -9,7 +9,7 @@ from palette import Palette
 
 pygame.init()
 
-screenSize = [960, 640]
+screenSize = [480, 360]
 screen = pygame.display.set_mode(screenSize)
 pygame.display.set_caption("VVVVVV")
 pygame.display.set_icon(pygame.image.load("./assets/icon.png"))
